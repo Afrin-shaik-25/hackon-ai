@@ -1,0 +1,62 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Firefox against localhost:3000",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "pathMappings": [
+                {
+                    "url": "webpack://_N_E",
+                    "path": "${workspaceFolder}"
+                }
+            ]
+        },
+        {
+            "name": "Launch Firefox against 127.0.0.1:3000",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "http://127.0.0.1:3000",
+            "webRoot": "${workspaceFolder}",
+            "pathMappings": [
+                {
+                    "url": "webpack://_N_E",
+                    "path": "${workspaceFolder}"
+                }
+            ]
+        },
+        {
+            "name": "Launch Chrome against localhost:3000",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Next.js: Debug Server-side",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "npm run dev"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Next.js: Full Stack (Firefox)",
+            "configurations": [
+                "Next.js: Debug Server-side",
+                "Launch Firefox against localhost:3000"
+            ]
+        },
+        {
+            "name": "Next.js: Full Stack (Chrome)",
+            "configurations": [
+                "Next.js: Debug Server-side",
+                "Launch Chrome against localhost:3000"
+            ]
+        }
+    ]
+}

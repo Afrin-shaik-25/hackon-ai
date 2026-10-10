@@ -1,0 +1,1101 @@
+{
+  "users": [
+    {
+      "id": "usr-student-01",
+      "email": "arav.sharma@apex.edu",
+      "passwordHash": "bba720327bd37e20dbdd73cbddb09091caf95ec4ca4639a5ce77d2ce8525fa8d7bff61bc0ac4fed4d75205656299b5d467df1e2ddb7b66c6e99041710415887f",
+      "salt": "46825d960582c3e37ca03589f65181f9",
+      "role": "student",
+      "name": "Arav Sharma",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true,
+      "createdAt": "2024-08-01T00:00:00Z",
+      "updatedAt": "2026-10-09T20:59:25.965Z"
+    },
+    {
+      "id": "usr-faculty-01",
+      "email": "k.raman@apex.edu",
+      "passwordHash": "bba720327bd37e20dbdd73cbddb09091caf95ec4ca4639a5ce77d2ce8525fa8d7bff61bc0ac4fed4d75205656299b5d467df1e2ddb7b66c6e99041710415887f",
+      "salt": "46825d960582c3e37ca03589f65181f9",
+      "role": "faculty",
+      "name": "Dr. K. Raman",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "verified": true,
+      "createdAt": "2023-01-10T00:00:00Z",
+      "updatedAt": "2026-10-09T20:59:25.965Z"
+    },
+    {
+      "id": "usr-grad-01",
+      "email": "sneha.m@graduate.example.com",
+      "passwordHash": "bba720327bd37e20dbdd73cbddb09091caf95ec4ca4639a5ce77d2ce8525fa8d7bff61bc0ac4fed4d75205656299b5d467df1e2ddb7b66c6e99041710415887f",
+      "salt": "46825d960582c3e37ca03589f65181f9",
+      "role": "graduate",
+      "name": "Sneha Mukherjee",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "verified": true,
+      "createdAt": "2026-06-15T00:00:00Z",
+      "updatedAt": "2026-10-09T20:59:25.965Z"
+    },
+    {
+      "id": "usr-company-01",
+      "email": "recruitment@nexatech.example.com",
+      "passwordHash": "bba720327bd37e20dbdd73cbddb09091caf95ec4ca4639a5ce77d2ce8525fa8d7bff61bc0ac4fed4d75205656299b5d467df1e2ddb7b66c6e99041710415887f",
+      "salt": "46825d960582c3e37ca03589f65181f9",
+      "role": "company",
+      "name": "Vikram Malhotra",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "verified": true,
+      "createdAt": "2025-05-20T00:00:00Z",
+      "updatedAt": "2026-10-09T20:59:25.965Z"
+    },
+    {
+      "id": "usr-admin-01",
+      "email": "admin@studylens.ai",
+      "passwordHash": "bba720327bd37e20dbdd73cbddb09091caf95ec4ca4639a5ce77d2ce8525fa8d7bff61bc0ac4fed4d75205656299b5d467df1e2ddb7b66c6e99041710415887f",
+      "salt": "46825d960582c3e37ca03589f65181f9",
+      "role": "admin",
+      "name": "Dr. Elena Rostova",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true,
+      "createdAt": "2023-01-01T00:00:00Z",
+      "updatedAt": "2026-10-09T20:59:25.965Z"
+    },
+    {
+      "id": "usr-student-02",
+      "email": "priya.patel@apex.edu",
+      "passwordHash": "bba720327bd37e20dbdd73cbddb09091caf95ec4ca4639a5ce77d2ce8525fa8d7bff61bc0ac4fed4d75205656299b5d467df1e2ddb7b66c6e99041710415887f",
+      "salt": "46825d960582c3e37ca03589f65181f9",
+      "role": "student",
+      "name": "Priya Patel",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "verified": true,
+      "createdAt": "2024-08-01T00:00:00Z",
+      "updatedAt": "2026-10-09T20:59:25.965Z"
+    },
+    {
+      "id": "usr-student-mv1gbx7z-tq5o",
+      "email": "new.student@test.edu",
+      "passwordHash": "3e1b804947adf3a4d8134f1e34e9a774e62fee2ea6e03c6b94c5f49665927f029731f941847101cb19776fbe447dca62f2c97e4e4fe346b282f41d1e0cb37f10",
+      "salt": "8060b141f050eb1978e5102585000605",
+      "role": "student",
+      "name": "Rohan Verma",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true,
+      "createdAt": "2026-10-09T21:02:38.831Z",
+      "updatedAt": "2026-10-09T21:02:38.831Z"
+    }
+  ],
+  "colleges": [
+    {
+      "id": "col-01",
+      "name": "Apex Institute of Technology",
+      "code": "AIT-BLR",
+      "location": "Bengaluru, Karnataka",
+      "status": "Active",
+      "createdAt": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "col-02",
+      "name": "National School of Applied Sciences",
+      "code": "NSAS-PUN",
+      "location": "Pune, Maharashtra",
+      "status": "Active",
+      "createdAt": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "col-03",
+      "name": "Trinity College of Engineering & Research",
+      "code": "TCER-HYD",
+      "location": "Hyderabad, Telangana",
+      "status": "Active",
+      "createdAt": "2023-01-01T00:00:00Z"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub-cs101",
+      "code": "CS101",
+      "name": "Mathematics I: Calculus & Linear Algebra",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 1,
+      "credits": 4,
+      "syllabusOverview": "Differential calculus, matrices, eigenvalues, vector spaces, and multivariable functions.",
+      "textbooks": [
+        "Higher Engineering Mathematics by B.S. Grewal",
+        "Linear Algebra by Gilbert Strang"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "sub-cs102",
+      "code": "CS102",
+      "name": "Engineering Physics & Quantum Mechanics",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 1,
+      "credits": 4,
+      "syllabusOverview": "Wave optics, lasers, fiber optics, and quantum mechanical wave functions.",
+      "textbooks": [
+        "Concepts of Modern Physics by Arthur Beiser"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "sub-cs103",
+      "code": "CS103",
+      "name": "Programming for Problem Solving (C Language)",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 1,
+      "credits": 4,
+      "syllabusOverview": "Imperative programming, control structures, pointers, dynamic memory, and file I/O.",
+      "textbooks": [
+        "The C Programming Language by Kernighan & Ritchie"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "sub-cs201",
+      "code": "CS201",
+      "name": "Mathematics II: Probability & Statistics",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 2,
+      "credits": 4,
+      "syllabusOverview": "Random variables, discrete and continuous distributions, hypothesis testing.",
+      "textbooks": [
+        "Probability and Statistics for Engineers by Miller & Freund"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "sub-cs202",
+      "code": "CS202",
+      "name": "Basic Electrical & Electronics Engineering",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 2,
+      "credits": 3,
+      "syllabusOverview": "DC circuits, AC circuits, semiconductor diodes, transistors, and operational amplifiers.",
+      "textbooks": [
+        "Basic Electrical Engineering by D.P. Kothari"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "sub-cs301",
+      "code": "CS301",
+      "name": "Data Structures & Algorithms Foundations",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 3,
+      "credits": 4,
+      "syllabusOverview": "Arrays, linked lists, stacks, queues, trees, graphs, sorting and asymptotic analysis.",
+      "textbooks": [
+        "Data Structures and Algorithms in C++ by Mark Allen Weiss"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "sub-cs302",
+      "code": "CS302",
+      "name": "Digital Logic & Computer Organization",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 3,
+      "credits": 4,
+      "syllabusOverview": "Boolean algebra, combinational circuits, sequential circuits, ALU, instruction sets.",
+      "textbooks": [
+        "Computer System Architecture by M. Morris Mano"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "sub-cs401",
+      "code": "CS401",
+      "name": "Discrete Mathematics & Graph Theory",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 4,
+      "credits": 4,
+      "syllabusOverview": "Set theory, relations, recurrence relations, graph connectivity, Euler/Hamiltonian graphs.",
+      "textbooks": [
+        "Discrete Mathematics and Its Applications by Kenneth Rosen"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "sub-cs402",
+      "code": "CS402",
+      "name": "Theory of Computation & Automata",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 4,
+      "credits": 4,
+      "syllabusOverview": "DFA, NFA, Regular Expressions, Context-Free Grammars, Pushdown Automata, Turing Machines.",
+      "textbooks": [
+        "Introduction to Automata Theory, Languages, and Computation by Hopcroft & Ullman"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "sub-cs501",
+      "code": "CS501",
+      "name": "Design & Analysis of Algorithms",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 5,
+      "credits": 4,
+      "syllabusOverview": "Divide and conquer, greedy strategies, dynamic programming, network flow, NP-completeness.",
+      "units": [
+        {
+          "unitNumber": 1,
+          "title": "Asymptotic Complexity & Recurrences",
+          "topics": [
+            "Big O/Omega/Theta",
+            "Master Theorem",
+            "Divide & Conquer"
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "title": "Greedy Algorithms",
+          "topics": [
+            "Huffman Coding",
+            "Fractional Knapsack",
+            "Kruskal & Prim MST"
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "title": "Dynamic Programming",
+          "topics": [
+            "0/1 Knapsack",
+            "Matrix Chain Multiplication",
+            "Longest Common Subsequence"
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "title": "Graph Algorithms",
+          "topics": [
+            "Bellman-Ford",
+            "Floyd-Warshall",
+            "Max Flow Min Cut"
+          ]
+        },
+        {
+          "unitNumber": 5,
+          "title": "Tractable & Intractable Problems",
+          "topics": [
+            "P vs NP",
+            "NP-Hard reductions",
+            "Traveling Salesperson"
+          ]
+        }
+      ],
+      "textbooks": [
+        "Introduction to Algorithms (CLRS)",
+        "Algorithm Design by Kleinberg & Tardos"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "sub-cs502",
+      "code": "CS502",
+      "name": "Database Management Systems",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 5,
+      "credits": 4,
+      "syllabusOverview": "Relational data model, SQL/DDL, normal forms (1NF-BCNF), transaction ACID, indexing, recovery.",
+      "units": [
+        {
+          "unitNumber": 1,
+          "title": "Relational Algebra & ER Modeling",
+          "topics": [
+            "Entity-Relationship diagrams",
+            "Relational constraints",
+            "SQL Queries"
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "title": "Database Design & Normalization",
+          "topics": [
+            "Functional dependencies",
+            "1NF, 2NF, 3NF, BCNF",
+            "Lossless decomposition"
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "title": "Transaction Processing",
+          "topics": [
+            "ACID properties",
+            "Schedules & Serializability",
+            "Two-phase locking"
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "title": "Storage & Indexing",
+          "topics": [
+            "B+ Trees",
+            "Hashing",
+            "Query Execution Plans"
+          ]
+        },
+        {
+          "unitNumber": 5,
+          "title": "Crash Recovery",
+          "topics": [
+            "WAL logging",
+            "ARIES algorithm",
+            "Checkpointing"
+          ]
+        }
+      ],
+      "textbooks": [
+        "Database System Concepts by Silberschatz, Korth, Sudarshan"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "sub-cs503",
+      "code": "CS503",
+      "name": "Operating Systems",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 5,
+      "credits": 4,
+      "syllabusOverview": "Process scheduling, concurrency, semaphores, deadlock handling, virtual memory paging, disk I/O.",
+      "textbooks": [
+        "Operating System Concepts by Silberschatz & Galvin"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "sub-cs504",
+      "code": "CS504",
+      "name": "Computer Networks",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 5,
+      "credits": 3,
+      "syllabusOverview": "OSI & TCP/IP stack, framing, error control, routing algorithms, TCP flow/congestion control, DNS/HTTP.",
+      "textbooks": [
+        "Computer Networks by Andrew S. Tanenbaum"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "sub-cs505",
+      "code": "CS505",
+      "name": "Artificial Intelligence Foundations",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 5,
+      "credits": 4,
+      "syllabusOverview": "State space search, A* heuristics, adversarial minimax search, constraint satisfaction, propositional logic.",
+      "textbooks": [
+        "Artificial Intelligence: A Modern Approach by Russell & Norvig"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "sub-cs601",
+      "code": "CS601",
+      "name": "Compiler Design",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 6,
+      "credits": 4,
+      "syllabusOverview": "Lexical analysis, top-down & bottom-up parsing (LL/LR), syntax-directed translation, code generation.",
+      "textbooks": [
+        "Compilers: Principles, Techniques, and Tools (Dragon Book)"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "sub-cs602",
+      "code": "CS602",
+      "name": "Software Engineering & Agile Methodologies",
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "semester": 6,
+      "credits": 3,
+      "syllabusOverview": "Agile sprints, CI/CD pipelines, design patterns, microservices architecture, automated testing.",
+      "textbooks": [
+        "Software Engineering by Ian Sommerville"
+      ],
+      "createdAt": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "subjectMaterials": [
+    {
+      "id": "mat-1",
+      "subjectId": "sub-cs501",
+      "subjectCode": "CS501",
+      "title": "Complete Lecture Notes — Dynamic Programming & Graph Algorithms",
+      "materialType": "Lecture Notes",
+      "fileUrl": "/materials/cs501-lecture-notes-v5.pdf",
+      "unit": 3,
+      "downloadsCount": 142,
+      "createdAt": "2026-09-10T00:00:00Z"
+    },
+    {
+      "id": "mat-2",
+      "subjectId": "sub-cs501",
+      "subjectCode": "CS501",
+      "title": "Previous Years Solved Exam Papers (2022-2025)",
+      "materialType": "PYQ",
+      "fileUrl": "/materials/cs501-pyq-solved.pdf",
+      "unit": 1,
+      "downloadsCount": 289,
+      "createdAt": "2026-09-15T00:00:00Z"
+    },
+    {
+      "id": "mat-3",
+      "subjectId": "sub-cs502",
+      "subjectCode": "CS502",
+      "title": "Lab Manual: SQL Queries, Triggers, & Stored Procedures",
+      "materialType": "Lab Manual",
+      "fileUrl": "/materials/cs502-db-lab-manual.pdf",
+      "unit": 2,
+      "downloadsCount": 198,
+      "createdAt": "2026-09-12T00:00:00Z"
+    },
+    {
+      "id": "mat-4",
+      "subjectId": "sub-cs503",
+      "subjectCode": "CS503",
+      "title": "Kernel Threads & Virtual Memory Slide Deck",
+      "materialType": "Lecture Notes",
+      "fileUrl": "/materials/cs503-os-memory.pdf",
+      "unit": 4,
+      "downloadsCount": 165,
+      "createdAt": "2026-09-20T00:00:00Z"
+    }
+  ],
+  "studentProfiles": [
+    {
+      "userId": "usr-student-01",
+      "studentId": "2023CS101",
+      "collegeId": "col-01",
+      "department": "Computer Science",
+      "studentType": "Undergraduate",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "academicYear": 3,
+      "currentSemester": 5,
+      "section": "A",
+      "attendanceRate": 92,
+      "createdAt": "2024-08-01T00:00:00Z",
+      "updatedAt": "2026-10-09T20:59:25.965Z"
+    },
+    {
+      "userId": "usr-student-02",
+      "studentId": "2023CS109",
+      "collegeId": "col-01",
+      "department": "Computer Science",
+      "studentType": "Undergraduate",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "academicYear": 3,
+      "currentSemester": 5,
+      "section": "A",
+      "attendanceRate": 62,
+      "createdAt": "2024-08-01T00:00:00Z",
+      "updatedAt": "2026-10-09T20:59:25.965Z"
+    },
+    {
+      "userId": "usr-student-mv1gbx7z-tq5o",
+      "studentId": "STU-2026-210",
+      "collegeId": "Apex Institute of Technology",
+      "department": "Computer Science & Engineering",
+      "studentType": "Undergraduate",
+      "degree": "B.Tech",
+      "branch": "Computer Science & Engineering",
+      "academicYear": 2,
+      "currentSemester": 3,
+      "section": "A",
+      "attendanceRate": 85,
+      "createdAt": "2026-10-09T21:02:38.831Z",
+      "updatedAt": "2026-10-09T21:02:38.831Z"
+    }
+  ],
+  "subjectGrades": [
+    {
+      "id": "grd-01",
+      "studentId": "usr-student-01",
+      "subjectId": "sub-cs501",
+      "subjectCode": "CS501",
+      "subjectName": "Design & Analysis of Algorithms",
+      "semester": 5,
+      "internalMarks": 27,
+      "externalMarks": 63,
+      "totalMarks": 90,
+      "maxMarks": 100,
+      "grade": "A+",
+      "attendancePercentage": 94,
+      "credits": 4,
+      "isBacklog": false,
+      "backlogStatus": "None",
+      "updatedAt": "2026-10-01T00:00:00Z"
+    },
+    {
+      "id": "grd-02",
+      "studentId": "usr-student-01",
+      "subjectId": "sub-cs502",
+      "subjectCode": "CS502",
+      "subjectName": "Database Management Systems",
+      "semester": 5,
+      "internalMarks": 26,
+      "externalMarks": 60,
+      "totalMarks": 86,
+      "maxMarks": 100,
+      "grade": "A",
+      "attendancePercentage": 90,
+      "credits": 4,
+      "isBacklog": false,
+      "backlogStatus": "None",
+      "updatedAt": "2026-10-01T00:00:00Z"
+    },
+    {
+      "id": "grd-03",
+      "studentId": "usr-student-01",
+      "subjectId": "sub-cs503",
+      "subjectCode": "CS503",
+      "subjectName": "Operating Systems",
+      "semester": 5,
+      "internalMarks": 28,
+      "externalMarks": 61,
+      "totalMarks": 89,
+      "maxMarks": 100,
+      "grade": "A+",
+      "attendancePercentage": 92,
+      "credits": 4,
+      "isBacklog": false,
+      "backlogStatus": "None",
+      "updatedAt": "2026-10-01T00:00:00Z"
+    },
+    {
+      "id": "grd-04",
+      "studentId": "usr-student-01",
+      "subjectId": "sub-cs504",
+      "subjectCode": "CS504",
+      "subjectName": "Computer Networks",
+      "semester": 5,
+      "internalMarks": 25,
+      "externalMarks": 58,
+      "totalMarks": 83,
+      "maxMarks": 100,
+      "grade": "A",
+      "attendancePercentage": 89,
+      "credits": 3,
+      "isBacklog": false,
+      "backlogStatus": "None",
+      "updatedAt": "2026-10-01T00:00:00Z"
+    },
+    {
+      "id": "grd-05",
+      "studentId": "usr-student-01",
+      "subjectId": "sub-cs505",
+      "subjectCode": "CS505",
+      "subjectName": "Artificial Intelligence Foundations",
+      "semester": 5,
+      "internalMarks": 29,
+      "externalMarks": 65,
+      "totalMarks": 94,
+      "maxMarks": 100,
+      "grade": "O",
+      "attendancePercentage": 96,
+      "credits": 4,
+      "isBacklog": false,
+      "backlogStatus": "None",
+      "updatedAt": "2026-10-01T00:00:00Z"
+    },
+    {
+      "id": "grd-06",
+      "studentId": "usr-student-01",
+      "subjectId": "sub-cs401",
+      "subjectCode": "CS401",
+      "subjectName": "Discrete Mathematics & Graph Theory",
+      "semester": 4,
+      "internalMarks": 25,
+      "externalMarks": 62,
+      "totalMarks": 87,
+      "maxMarks": 100,
+      "grade": "A",
+      "attendancePercentage": 91,
+      "credits": 4,
+      "isBacklog": false,
+      "backlogStatus": "None",
+      "updatedAt": "2026-05-20T00:00:00Z"
+    },
+    {
+      "id": "grd-07",
+      "studentId": "usr-student-01",
+      "subjectId": "sub-cs402",
+      "subjectCode": "CS402",
+      "subjectName": "Theory of Computation & Automata",
+      "semester": 4,
+      "internalMarks": 26,
+      "externalMarks": 64,
+      "totalMarks": 90,
+      "maxMarks": 100,
+      "grade": "A+",
+      "attendancePercentage": 93,
+      "credits": 4,
+      "isBacklog": false,
+      "backlogStatus": "None",
+      "updatedAt": "2026-05-20T00:00:00Z"
+    },
+    {
+      "id": "grd-08",
+      "studentId": "usr-student-02",
+      "subjectId": "sub-cs402",
+      "subjectCode": "CS402",
+      "subjectName": "Theory of Computation & Automata",
+      "semester": 4,
+      "internalMarks": 12,
+      "externalMarks": 23,
+      "totalMarks": 35,
+      "maxMarks": 100,
+      "grade": "F",
+      "attendancePercentage": 58,
+      "credits": 4,
+      "isBacklog": true,
+      "backlogStatus": "Active",
+      "updatedAt": "2026-05-20T00:00:00Z"
+    }
+  ],
+  "attendanceRecords": [
+    {
+      "id": "att-1",
+      "studentId": "usr-student-01",
+      "subjectCode": "CS501",
+      "subjectName": "Design & Analysis of Algorithms",
+      "date": "2026-10-08",
+      "status": "Present",
+      "topic": "Dynamic Programming: Knapsack"
+    },
+    {
+      "id": "att-2",
+      "studentId": "usr-student-01",
+      "subjectCode": "CS502",
+      "subjectName": "Database Management Systems",
+      "date": "2026-10-08",
+      "status": "Present",
+      "topic": "B+ Tree Indexing"
+    },
+    {
+      "id": "att-3",
+      "studentId": "usr-student-01",
+      "subjectCode": "CS503",
+      "subjectName": "Operating Systems",
+      "date": "2026-10-07",
+      "status": "Present",
+      "topic": "Virtual Memory Paging"
+    },
+    {
+      "id": "att-4",
+      "studentId": "usr-student-01",
+      "subjectCode": "CS504",
+      "subjectName": "Computer Networks",
+      "date": "2026-10-06",
+      "status": "Present",
+      "topic": "TCP Congestion Control"
+    },
+    {
+      "id": "att-5",
+      "studentId": "usr-student-01",
+      "subjectCode": "CS505",
+      "subjectName": "Artificial Intelligence Foundations",
+      "date": "2026-10-05",
+      "status": "Present",
+      "topic": "A* Search Heuristics"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "as-1",
+      "studentId": "usr-student-01",
+      "subjectCode": "CS501",
+      "title": "Algorithms Mid-Term Exam",
+      "category": "MCQ",
+      "score": 45,
+      "maxScore": 50,
+      "date": "2026-09-28",
+      "status": "Completed",
+      "feedback": "Excellent graph traversal logic."
+    },
+    {
+      "id": "as-2",
+      "studentId": "usr-student-01",
+      "subjectCode": "CS502",
+      "title": "SQL & Query Optimization Lab Test",
+      "category": "Coding",
+      "score": 48,
+      "maxScore": 50,
+      "date": "2026-10-02",
+      "status": "Completed",
+      "feedback": "Clean schema and optimal joins."
+    },
+    {
+      "id": "as-3",
+      "studentId": "usr-student-01",
+      "subjectCode": "CS503",
+      "title": "OS Kernel Threads Quiz",
+      "category": "Assignment",
+      "score": 19,
+      "maxScore": 20,
+      "date": "2026-10-05",
+      "status": "Completed",
+      "feedback": "Well structured synchronization logic."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk-1",
+      "userId": "usr-student-01",
+      "title": "Prepare Seminar on Distributed Consensus",
+      "dueDate": "2026-10-15",
+      "priority": "high",
+      "category": "Academic",
+      "completed": false,
+      "createdAt": "2026-10-01T00:00:00Z"
+    },
+    {
+      "id": "tsk-2",
+      "userId": "usr-student-01",
+      "title": "Submit DBMS Project Phase 2 Report",
+      "dueDate": "2026-10-18",
+      "priority": "medium",
+      "category": "Project",
+      "completed": false,
+      "createdAt": "2026-10-02T00:00:00Z"
+    },
+    {
+      "id": "tsk-3",
+      "userId": "usr-student-01",
+      "title": "Complete LeetCode Biweekly Contest",
+      "dueDate": "2026-10-11",
+      "priority": "medium",
+      "category": "Career",
+      "completed": true,
+      "createdAt": "2026-10-03T00:00:00Z"
+    }
+  ],
+  "exams": [
+    {
+      "id": "ex-1",
+      "subjectCode": "CS501",
+      "subjectName": "Design & Analysis of Algorithms",
+      "date": "2026-11-12",
+      "time": "09:30 AM",
+      "venue": "Hall A-102",
+      "type": "End-Semester",
+      "semester": 5
+    },
+    {
+      "id": "ex-2",
+      "subjectCode": "CS502",
+      "subjectName": "Database Management Systems",
+      "date": "2026-11-16",
+      "time": "09:30 AM",
+      "venue": "Hall A-104",
+      "type": "End-Semester",
+      "semester": 5
+    },
+    {
+      "id": "ex-3",
+      "subjectCode": "CS503",
+      "subjectName": "Operating Systems",
+      "date": "2026-11-20",
+      "time": "02:00 PM",
+      "venue": "Hall B-201",
+      "type": "End-Semester",
+      "semester": 5
+    }
+  ],
+  "examPreferences": [
+    {
+      "id": "exp-1",
+      "userId": "usr-student-01",
+      "examId": "ex-1",
+      "enableDailyReminders": true,
+      "morningReminderTime": "07:30 AM",
+      "daysBefore": 5,
+      "emailChannel": true,
+      "pushChannel": true
+    },
+    {
+      "id": "exp-2",
+      "userId": "usr-student-01",
+      "examId": "ex-2",
+      "enableDailyReminders": true,
+      "morningReminderTime": "07:30 AM",
+      "daysBefore": 5,
+      "emailChannel": true,
+      "pushChannel": true
+    }
+  ],
+  "facultyProfiles": [
+    {
+      "userId": "usr-faculty-01",
+      "employeeId": "FAC-CS-042",
+      "collegeId": "col-01",
+      "department": "Computer Science & Engineering",
+      "designation": "Associate Professor"
+    }
+  ],
+  "facultyClasses": [
+    {
+      "id": "fc-1",
+      "facultyId": "usr-faculty-01",
+      "subjectCode": "CS501",
+      "subjectName": "Design & Analysis of Algorithms",
+      "branch": "CSE",
+      "section": "A",
+      "schedule": "Mon, Wed, Fri 09:30 - 10:30 AM",
+      "semester": 5,
+      "academicYear": 3
+    },
+    {
+      "id": "fc-2",
+      "facultyId": "usr-faculty-01",
+      "subjectCode": "CS502",
+      "subjectName": "Database Management Systems",
+      "branch": "CSE",
+      "section": "A",
+      "schedule": "Tue, Thu 11:00 AM - 12:30 PM",
+      "semester": 5,
+      "academicYear": 3
+    }
+  ],
+  "interventions": [
+    {
+      "id": "int-001",
+      "facultyId": "usr-faculty-01",
+      "facultyName": "Dr. K. Raman",
+      "studentId": "usr-student-02",
+      "studentName": "Priya Patel",
+      "studentCode": "2023CS109",
+      "reason": "Attendance dropped below 65% and missed Midterm 2 submission in OS",
+      "recommendedAction": "Mandatory 1-on-1 counseling session and peer-tutoring assigned",
+      "followUpDate": "2026-10-15",
+      "status": "In Progress",
+      "notes": "Parent contacted regarding attendance policy.",
+      "privateNotes": "Student stated health concerns; granted 10-day assignment extension.",
+      "createdAt": "2026-10-02T00:00:00Z",
+      "updatedAt": "2026-10-05T00:00:00Z"
+    }
+  ],
+  "dataImports": [
+    {
+      "id": "imp-01",
+      "uploaderId": "usr-faculty-01",
+      "source": "academics",
+      "sourceTitle": "Mid-Term 1 Examination Scores",
+      "fileName": "AIT_CSE_Sem5_MidTerm1_2026.csv",
+      "totalRows": 148,
+      "acceptedRows": 146,
+      "rejectedRows": 2,
+      "status": "Completed",
+      "rejectedDetails": [
+        {
+          "row": 42,
+          "studentId": "2023CS042",
+          "reason": "Invalid grade code (XX)"
+        },
+        {
+          "row": 99,
+          "studentId": "2023CS099",
+          "reason": "Internal marks exceed max of 30"
+        }
+      ],
+      "uploadedAt": "2026-10-01T10:30:00Z"
+    }
+  ],
+  "graduateProfiles": [
+    {
+      "userId": "usr-grad-01",
+      "collegeId": "col-02",
+      "degree": "B.Tech IT",
+      "graduationYear": 2026,
+      "skills": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Python",
+        "SQL",
+        "Docker",
+        "AWS"
+      ],
+      "resumeData": {
+        "summary": "Aspiring Full-Stack Software Engineer with strong background in distributed systems and cloud native applications.",
+        "education": "B.Tech in Information Technology, National School of Applied Sciences (CGPA: 8.9)"
+      }
+    }
+  ],
+  "aptitudeAttempts": [
+    {
+      "id": "apt-1",
+      "userId": "usr-grad-01",
+      "category": "Quantitative Aptitude",
+      "score": 85,
+      "maxScore": 100,
+      "completedAt": "2026-10-02T00:00:00Z"
+    },
+    {
+      "id": "apt-2",
+      "userId": "usr-grad-01",
+      "category": "Logical Reasoning",
+      "score": 92,
+      "maxScore": 100,
+      "completedAt": "2026-10-05T00:00:00Z"
+    }
+  ],
+  "companyProfiles": [
+    {
+      "userId": "usr-company-01",
+      "companyName": "NexaTech Systems",
+      "industry": "Enterprise SaaS & Cloud Infrastructure",
+      "website": "https://nexatech.example.com",
+      "verificationStatus": "Verified",
+      "kycSubmittedAt": "2025-05-20T00:00:00Z"
+    }
+  ],
+  "jobPostings": [
+    {
+      "id": "job-001",
+      "companyId": "usr-company-01",
+      "companyName": "NexaTech Systems",
+      "title": "Junior Full-Stack Engineer (React & TypeScript)",
+      "type": "Full-time",
+      "location": "Bengaluru, Karnataka (Hybrid)",
+      "remote": false,
+      "salary": "₹7.5 - ₹10.5 LPA",
+      "deadline": "2026-11-15",
+      "requiredSkills": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "SQL",
+        "Git"
+      ],
+      "preferredSkills": [
+        "Next.js",
+        "Docker",
+        "Tailwind CSS"
+      ],
+      "experience": "0 - 1 Years (Entry Level / Freshers)",
+      "description": "Build robust SaaS frontend features, develop REST microservices, and collaborate with product engineering teams.",
+      "openings": 3,
+      "status": "Active",
+      "createdAt": "2026-10-01T00:00:00Z",
+      "applicationsCount": 28
+    },
+    {
+      "id": "job-002",
+      "companyId": "usr-company-01",
+      "companyName": "NexaTech Systems",
+      "title": "Associate Cloud DevOps Engineer",
+      "type": "Full-time",
+      "location": "Hyderabad, Telangana (Remote)",
+      "remote": true,
+      "salary": "₹8.0 - ₹11.0 LPA",
+      "deadline": "2026-11-20",
+      "requiredSkills": [
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "AWS"
+      ],
+      "preferredSkills": [
+        "Terraform",
+        "Python"
+      ],
+      "experience": "0 - 2 Years",
+      "description": "Maintain container deployment pipelines, monitor cluster uptime, and automate cloud environments.",
+      "openings": 2,
+      "status": "Active",
+      "createdAt": "2026-10-05T00:00:00Z",
+      "applicationsCount": 19
+    }
+  ],
+  "jobApplications": [
+    {
+      "id": "app-01",
+      "jobId": "job-001",
+      "jobTitle": "Junior Full-Stack Engineer (React & TypeScript)",
+      "candidateId": "usr-grad-01",
+      "candidateName": "Sneha Mukherjee",
+      "candidateEmail": "sneha.m@graduate.example.com",
+      "appliedDate": "2026-10-04",
+      "status": "Interview",
+      "matchScore": 92,
+      "matchedSkills": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "SQL",
+        "Git"
+      ],
+      "missingSkills": [
+        "Docker"
+      ],
+      "recruiterNotes": "Impressive GitHub portfolio and live web applications. Technical round scheduled.",
+      "interviewDate": "2026-10-14T11:00:00Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1791579566107-oj9yc",
+      "userId": "usr-student-01",
+      "userEmail": "arav.sharma@apex.edu",
+      "role": "student",
+      "action": "USER_LOGIN",
+      "ip": "::1",
+      "details": "Successful login as student",
+      "timestamp": "2026-10-09T20:59:26.107Z"
+    },
+    {
+      "id": "log-01",
+      "userId": "usr-admin-01",
+      "userEmail": "admin@studylens.ai",
+      "role": "admin",
+      "action": "PLATFORM_BOOTSTRAP",
+      "ip": "127.0.0.1",
+      "details": "StudyLens AI persistent database initialized with verified academic schema.",
+      "timestamp": "2026-10-09T20:59:25.965Z"
+    }
+  ],
+  "platformSettings": {
+    "platformName": "StudyLens AI",
+    "academicYear": "2026-2027",
+    "term": "Odd Semester",
+    "dataIntegrationMode": "Deterministic Synthetic Dataset (ERP Unconnected)",
+    "examReminderIntervalDays": "5"
+  }
+}
