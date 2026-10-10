@@ -865,7 +865,7 @@ export function PortalAuthView({
       {/* Footer Branding */}
       <div className="w-full max-w-5xl mx-auto text-center pb-2">
         <p className="text-xs text-blue-100/70">
-          &copy; {new Date().getFullYear()} StudyLens AI &bull; Secure Institutional Portal
+          &copy; 2026 StudyLens AI &bull; Secure Institutional Portal
         </p>
       </div>
     </div>
